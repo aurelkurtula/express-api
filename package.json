@@ -1,0 +1,28 @@
+{
+  "name": "quick",
+  "version": "1.0.0",
+  "description": ":) ",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Aurel kurtula",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-stage-3": "^6.22.0",
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-es2015-node5": "*",
+    "babel-register": "*"
+  }
+}
